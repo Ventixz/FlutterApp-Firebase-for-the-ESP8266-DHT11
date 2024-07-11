@@ -9,13 +9,13 @@ A Flutter application for monitoring temperature and humidity levels using Fireb
 - **Firebase Integration**: Seamless connection to Firebase Realtime Database for efficient data storage and retrieval.
 
 ## Screenshots 📸
-<!-- Add some screenshots here to showcase the app interface -->
+![app1](https://github.com/Ventixz/FlutterApp-Firebase-for-the-ESP8266-DHT11/blob/main/app1.png)
 
 ## Installation 🛠️
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/charcoal-cooling-system-monitor.git
-    cd charcoal-cooling-system-monitor
+    git clone https://github.com/Ventixz/FlutterApp-Firebase-for-the-ESP8266-DHT11
+    cd FlutterApp-Firebase-for-the-ESP8266-DHT11
     ```
 
 2. **Install Flutter dependencies:**
