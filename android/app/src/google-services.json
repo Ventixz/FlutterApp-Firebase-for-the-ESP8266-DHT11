@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1008412615090",
+    "firebase_url": "https://arduino-dht11-44e1c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "arduino-dht11-44e1c",
+    "storage_bucket": "arduino-dht11-44e1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008412615090:android:2425f87fedba129f61c4ab",
+        "android_client_info": {
+          "package_name": "com.example.charcoalcooler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABN3FKEOZ4BiS2bqfwH9cLCbPj0iNQzrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008412615090:android:e08e6c39c19103af61c4ab",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABN3FKEOZ4BiS2bqfwH9cLCbPj0iNQzrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
