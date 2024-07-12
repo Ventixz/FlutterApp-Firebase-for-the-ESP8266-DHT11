@@ -25,7 +25,6 @@ A Flutter application for monitoring temperature and humidity levels using Fireb
 
 3. **Configure Firebase:**
     - Add your `google-services.json` file for Android.
-    - Add your `GoogleService-Info.plist` file for iOS.
     - Ensure your Firebase project is properly set up for Flutter.
 
 4. **Run the app:**
