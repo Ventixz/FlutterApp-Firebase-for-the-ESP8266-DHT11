@@ -26,6 +26,14 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+        <receiver
+            android:name="com.transistorsoft.flutter.backgroundfetch.HeadlessBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.transistorsoft.flutter.backgroundfetch.ACTION_BROADCAST" />
+            </intent-filter>
+        </receiver>
     </application>
 
     <queries>
