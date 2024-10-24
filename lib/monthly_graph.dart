@@ -95,7 +95,7 @@ class _MonthlyGraphState extends State<MonthlyGraph> {
                   children: [
                     Row(
                       children: [
-                        Icon(Icons.thermostat, color: Colors.red),
+                        Icon(Icons.thermostat, color: Colors.red), // Swapped color
                         SizedBox(width: 4),
                         Text('Temperature'),
                       ],
@@ -103,7 +103,7 @@ class _MonthlyGraphState extends State<MonthlyGraph> {
                     SizedBox(width: 16),
                     Row(
                       children: [
-                        Icon(Icons.water_drop, color: Colors.blue),
+                        Icon(Icons.water_drop, color: Colors.blue), // Swapped color
                         SizedBox(width: 4),
                         Text('Humidity'),
                       ],
@@ -124,12 +124,14 @@ class _MonthlyGraphState extends State<MonthlyGraph> {
                           xValueMapper: (ChartData data, _) => data.month,
                           yValueMapper: (ChartData data, _) => data.value,
                           name: 'Temperature',
+                          color: Colors.red, // Swapped color
                         ),
                         LineSeries<ChartData, int>(
                           dataSource: _humidityData,
                           xValueMapper: (ChartData data, _) => data.month,
                           yValueMapper: (ChartData data, _) => data.value,
                           name: 'Humidity',
+                          color: Colors.blue, // Swapped color
                         ),
                       ],
                     ),
