@@ -14,10 +14,10 @@ void main() async {
   await Firebase.initializeApp(
     options: const FirebaseOptions(
       apiKey: '',
-      appId: '1:1008412615090:android:e08e6c39c19103af61c4ab',
-      messagingSenderId: '1008412615090',
-      projectId: 'arduino-dht11-44e1c',
-      databaseURL: 'https://arduino-dht11-44e1c-default-rtdb.asia-southeast1.firebasedatabase.app/',
+      appId: '',
+      messagingSenderId: '',
+      projectId: '',
+      databaseURL: '',
     ),
   );
 
