@@ -11,11 +11,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: 3.2.0
-  firebase_database: 11.0.3
-
-
+  firebase_core: ^3.2.0
+  firebase_database: ^11.0.3
+  google_fonts: ^4.0.4
   cupertino_icons: ^1.0.6
+  crypto: ^3.0.1
+  http: ^0.13.4
+  flutter_lints: ^2.0.0
+  syncfusion_flutter_gauges: ^20.2.48
+  image_picker: ^0.8.4+4
+  shared_preferences: ^2.0.6
+  syncfusion_flutter_charts: ^20.2.48
+  flutter_local_notifications: ^17.2.3
+  workmanager: ^0.5.2
 
 dev_dependencies:
   flutter_test:
